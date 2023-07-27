@@ -47,7 +47,11 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="mobail-burger">
+        <button 
+        type="button" 
+        aria-expanded="false" 
+        aria-controls="mobail-menu"
+        class="mobail-burger js-open-menu">
           <svg class="mobail-burger-svg" width="32" height="22">
             <use href="images/icons.svg#menu-hamburger"></use>
           </svg>
@@ -495,6 +499,66 @@
         </div>
       </div>
     </footer>  
+
+    <div class="mobail-menu js-menu-container" id="mobail-menu">
+      <div class="wrapper-mobail-menu">
+        <button type="button" class="icon-wrapper-modal-close-mobail js-close-menu" >
+          <svg class="icon-modal-close-window-mobail" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <nav class="navigation-mobail-menu">
+          <ul class="list-mobail-menu list">
+            <li class="items-mobail-menu">
+              <a href="./index.html" class="link-mobail-menu link-active link">Studio</a>
+            </li>
+            <li class="items-mobail-menu">
+              <a href="./portfolio.html" class="link-mobail-menu link">Portfolio</a>
+            </li>
+            <li class="items-mobail-menu">
+              <a href="" class="link-mobail-menu link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address>
+          <div class="contacts-mobail-menu">
+            <a href="tel:+110001111111" class="addres-tel-mobail-menu link">+11 (000) 111-11-11</a>
+            <a href="mailto:info@devstudio.com" class="addres-email-mobail-menu link">info@devstudio.com</a>
+          </div>
+          <ul class="addres-list-mobail-menu">
+            <li class="addres-items-mobail-menu list">
+              <a href="" class="addres-link-svg-mobail">
+                <svg class="addres-icon-mobail-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="addres-items-mobail-menu list">
+              <a href="" class="addres-link-svg-mobail">
+                <svg class="addres-icon-mobail-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="addres-items-mobail-menu list">
+              <a href="" class="addres-link-svg-mobail">
+                <svg class="addres-icon-mobail-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="addres-items-mobail-menu list">
+              <a href="" class="addres-link-svg-mobail">
+                <svg class="addres-icon-mobail-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </div>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal-window">
         <button type="button" class="icon-wrapper-modal-close" data-modal-close>

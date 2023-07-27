@@ -9,12 +9,15 @@
 
 
 @import url(./layout/header.css);
-@import url(./layout/footer.css);
 
 
-
+@import url(./layout/index/modal-burger.css);
 @import url(./layout/index/section-one.css);
+@import url(./layout/index/modal-main.css);
 @import url(./layout/index/section-two.css);
 @import url(./layout/index/section-three.css);
 @import url(./layout/index/section-four.css);
 @import url(./layout/index/section-five.css);
+
+
+@import url(./layout/footer.css);
