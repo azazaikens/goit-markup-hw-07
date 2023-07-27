@@ -1,0 +1,29 @@
+@media screen and (max-width: 1200px) {
+    .section-three {
+        display: none;
+    }
+
+    .marg-none {
+        margin-bottom: 0;
+    }
+}
+
+.section-three {
+    padding-top: 0;
+}
+
+.header-section-two {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--blue-black-color);
+}
+
+.photo-list {
+    display: flex;
+
+    gap: 24px;
+}
+

@@ -1,0 +1,156 @@
+@media screen and (max-width: 767px) {
+    .calc {
+        width: 100%;
+    }
+}
+
+.index-section-four {
+    background-color: #F4F4FD;
+}
+
+.index-main-header-section-four {
+    margin-bottom: 72px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--blue-black-color);
+}
+
+.li-htwo {
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--blue-black-color);
+    background-color: #FFFFFF;
+}
+
+.team-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    row-gap: 72px;
+}
+
+.team-list-li {
+    width: 264px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+    background-color: #FFFFFF;
+}
+
+.name-and-job {
+    padding: 32px 16px;
+
+}
+
+.team-job {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.container-icon-section-four {
+    display: flex;
+    justify-content: center;
+
+    gap: 24px;
+}
+
+.social-list {
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+.link-social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    background-color: var(--blue-white-color);
+    border-radius: 50%;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-social-icon:hover {
+    background-color: #404bbf;
+}
+
+.link-social-icon:focus {
+    background-color: #404bbf;
+}
+
+.index-icons-section-four {
+    fill: var(--grey-light-color);
+}
+
+
+@media screen and (min-width: 768px) {
+    .team-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        row-gap: 64px;
+        column-gap: 24px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+
+
+
+
+/* 
+
+.index-main-header-section-four {
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--blue-black-color);
+}
+
+.li-htwo {
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--blue-black-color);
+    background-color: #FFFFFF;
+}
+
+.team-list {
+    display: flex;
+
+    gap: 24px;
+}
+
+.team-list-li {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+    background-color: #FFFFFF;
+}
+
+ */
