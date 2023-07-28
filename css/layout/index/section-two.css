@@ -49,6 +49,10 @@
         column-gap: 24px;
     }
 
+    .headerthree-in-li {
+        text-align: start;
+    }
+
     .small-list-li {
         width: 356px;
     }
@@ -80,7 +84,6 @@
     }
 
     .headerthree-in-li {
-        text-align: start;
         margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
