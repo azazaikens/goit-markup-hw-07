@@ -183,6 +183,7 @@
         justify-content: flex-start;
         flex-wrap: wrap;
         
+        align-items: start;
 
         row-gap: 72px;
         column-gap: 24px;
@@ -231,6 +232,12 @@
         flex-wrap: nowrap;
 
         column-gap: 0px;
+    }
+
+    .footer-logo-text {
+        display: inline-block;
+
+        padding-left: 0px;
     }
 
     .footer-text {
