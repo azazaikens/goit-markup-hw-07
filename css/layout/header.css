@@ -1,8 +1,4 @@
 @media screen and (max-width: 767px) {
-    .header {
-        margin-bottom: 77px;
-    }
-
     .ul-logo {
         display: none;
     }
